@@ -2,6 +2,8 @@
 这个病毒需要提前安装openssl和各种.net VS运行环境
 然后运行后，到了晚上八点后，就会开始加密各种文件。之前会感染用户的exe文件
 这个是解密需要用到的公私钥文件，不过加密文件用的是一次性密钥
+
+
 -----BEGIN RSA PUBLIC KEY-----
 MIIBiAKCAYEA2FVHuTjaFec1AqRelp+7E5O1q6xB10KVuvjA86K2hjBn9Ock3UyJ
 Vcows9/bkA5j4PGtnEutB9nL47gpvA/CO7QOFa/jzihkagGHwSGequ/TOCYTMbfH
